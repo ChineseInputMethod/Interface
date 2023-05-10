@@ -1,12 +1,14 @@
-### [由TSF管理器实现的接口](Interfaces/TSFmanager.md)
+### 接口
 
-### 由文本服务实现的接口
+- [由TSF管理器实现的接口](Interfaces/TSFmanager.md)
+- 由文本服务实现的接口
+- 由应用程序实现的接口
 
-### 由应用程序实现的接口
+>索引
 
 接口|描述|实现
 -|-|-
-IAnchor|片段标签|由TSF管理器实现
+IAnchor|片段标签|TSF管理器
 IEnumITfCompositionView|输入组合查看对象枚举器|
 IEnumTfCandidates|候选文字串对象枚举器|
 IEnumTfContexts

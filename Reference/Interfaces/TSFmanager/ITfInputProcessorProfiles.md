@@ -4,6 +4,6 @@
 
 ```C++
 HRESULT Register(
-    [in] REFCLSID rclsid /*要注册的文本服务的CLSID*/
+    [in] REFCLSID rclsid //要注册的文本服务的CLSID
 );
 ```
