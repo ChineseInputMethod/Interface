@@ -1,7 +1,7 @@
 ### 接口
 
 - [由TSF管理器实现的接口](Interfaces/TSFmanager.md)
-- 由文本服务实现的接口
+- [由文本服务实现的接口](Interfaces/TextService.md)
 - 由应用程序实现的接口
 
 >索引
