@@ -9,7 +9,7 @@
 
 >索引
 
-接口|描述|实现
+接口|指称|实现
 -|-|-
 IAnchor|片段标签|TSF管理器
 IEnumITfCompositionView|输入组合查看对象枚举器|
@@ -24,7 +24,7 @@ IEnumTfLanguageProfiles语言配置枚举器
 IEnumTfLatticeElements单元格枚举器
 IEnumTfProperties属性对象枚举器
 IEnumTfPropertyValue属性值枚举器
-IEnumTfRanges片段对象枚举器
+[IEnumTfRanges](Interfaces/TSFmanager/IEnumTfRanges.md)|片段对象枚举器|TSF管理器
 ISoftKbd
 ITextStoreACP|ACP式文本操作
 ITextStoreACP2
@@ -59,8 +59,8 @@ ITfDisplayAttributeInfo显示属性信息
 ITfDisplayAttributeMgr显示属性管理器
 ITfDisplayAttributeNotifySink显示属性消息接收器
 ITfDisplayAttributeProvider显示属性提供者
-ITfDocumentMgr文档管理器
-ITfEditRecord编辑记录
+[ITfDocumentMgr](Interfaces/TSFmanager/ITfDocumentMgr.md)|文档管理器|TSF管理器
+[ITfEditRecord](Interfaces/TSFmanager/ITfEditRecord.md)|编辑记录|TSF管理器
 ITfEditSession编辑会话
 ITfEditTransactionSink编辑事务消息接收器
 ITfFnAdviseText文本消息接收器
@@ -124,7 +124,7 @@ ITfStatusSink文档状态消息接收器
 ITfSystemDeviceTypeLangBarItem系统驱动类型语言栏项目应用
 ITfSystemLangBarItem系统语言栏项目应用扩展
 ITfSystemLangBarItemSink系统语言栏项目扩展槽
-ITfTextEditSink编辑会话完成消息接收器
+[ITfTextEditSink](Interfaces/TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
 [ITfTextInputProcessor](Interfaces/TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
 ITfTextLayoutSink文本布局消息接收器
 ITfThreadFocusSink线程输入焦点消息接收器

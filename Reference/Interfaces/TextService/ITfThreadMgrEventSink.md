@@ -4,6 +4,6 @@
 
 方法|描述
 -|-
-[OnSetFocus][1]			|当文档视图得到或失去焦点时被调用
+[OnSetFocus][1]			|当文档视图得到或失去焦点时被调用。
 
 [1]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfthreadmgreventsink-onsetfocus

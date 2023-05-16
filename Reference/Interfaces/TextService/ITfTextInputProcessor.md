@@ -4,8 +4,8 @@
 
 方法|描述
 -|-
-[Activate][1]			|激活输入法
-[deactivate][2]			|停用输入法
+[Activate][1]			|激活输入法。
+[deactivate][2]			|停用输入法。
 
 [1]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itftextinputprocessor-activate
 [2]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itftextinputprocessor-deactivate
