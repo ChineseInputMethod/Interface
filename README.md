@@ -1,8 +1,8 @@
 ### 接口
 
-- [由TSF管理器实现的接口](Interfaces/TSFmanager.md)
+- [由TSF管理器实现的接口](TSFmanager.md)
 
-- [由文本服务实现的接口](Interfaces/TextService.md)
+- [由文本服务实现的接口](TextService.md)
 
 - 由应用程序实现的接口
 
@@ -24,7 +24,7 @@ IEnumTfLanguageProfiles语言配置枚举器
 IEnumTfLatticeElements单元格枚举器
 IEnumTfProperties属性对象枚举器
 IEnumTfPropertyValue属性值枚举器
-[IEnumTfRanges](Interfaces/TSFmanager/IEnumTfRanges.md)|片段对象枚举器|TSF管理器
+[IEnumTfRanges](TSFmanager/IEnumTfRanges.md)|片段对象枚举器|TSF管理器
 ISoftKbd
 ITextStoreACP|ACP式文本操作
 ITextStoreACP2
@@ -59,8 +59,8 @@ ITfDisplayAttributeInfo显示属性信息
 ITfDisplayAttributeMgr显示属性管理器
 ITfDisplayAttributeNotifySink显示属性消息接收器
 ITfDisplayAttributeProvider显示属性提供者
-[ITfDocumentMgr](Interfaces/TSFmanager/ITfDocumentMgr.md)|文档管理器|TSF管理器
-[ITfEditRecord](Interfaces/TSFmanager/ITfEditRecord.md)|编辑记录|TSF管理器
+[ITfDocumentMgr](TSFmanager/ITfDocumentMgr.md)|文档管理器|TSF管理器
+[ITfEditRecord](TSFmanager/ITfEditRecord.md)|编辑记录|TSF管理器
 ITfEditSession编辑会话
 ITfEditTransactionSink编辑事务消息接收器
 ITfFnAdviseText文本消息接收器
@@ -80,7 +80,7 @@ ITfFnShowHelp文本服务自配帮助信息
 ITfFunction扩展功能对象
 ITfFunctionProvider扩展功能提供者
 ITfIntegratableCandidateListUIElement
-[ITfInputProcessorProfiles](Interfaces/TSFmanager/ITfInputProcessorProfiles.md)|文本服务语言配置操作|TSF管理器
+[ITfInputProcessorProfiles](TSFmanager/ITfInputProcessorProfiles.md)|文本服务语言配置操作|TSF管理器
 ITfInputProcessorProfilesEx设置文本服务语言配置的显示名称
 ITfInputProcessorProfileSubstituteLayout文本服务配置的键盘布局操作
 ITfInputScope定向输入识别类型
@@ -117,20 +117,20 @@ ITfReadOnlyProperty只读属性
 ITfReverseConversion
 ITfReverseConversionList
 ITfReverseConversionMgr
-[ITfSource](Interfaces/TSFmanager/ITfSource.md)|消息接收器|TSF管理器
+[ITfSource](TSFmanager/ITfSource.md)|消息接收器|TSF管理器
 ITfSourceSingle单一消息接收器
 ITfSpeechUIServer语音用户界面服务器
 ITfStatusSink文档状态消息接收器
 ITfSystemDeviceTypeLangBarItem系统驱动类型语言栏项目应用
 ITfSystemLangBarItem系统语言栏项目应用扩展
 ITfSystemLangBarItemSink系统语言栏项目扩展槽
-[ITfTextEditSink](Interfaces/TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
-[ITfTextInputProcessor](Interfaces/TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
+[ITfTextEditSink](TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
+[ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
 ITfTextLayoutSink文本布局消息接收器
 ITfThreadFocusSink线程输入焦点消息接收器
-[ITfThreadMgr](Interfaces/TSFmanager/ITfThreadMgr.md)|线程管理器|TSF管理器
+[ITfThreadMgr](TSFmanager/ITfThreadMgr.md)|线程管理器|TSF管理器
 ITfThreadMgr2
-[ITfThreadMgrEventSink](Interfaces/TextService/ITfThreadMgrEventSink.md)|线程管理器事件接收器|文本服务
+[ITfThreadMgrEventSink](TextService/ITfThreadMgrEventSink.md)|线程管理器事件接收器|文本服务
 ITfThreadMgrEx
 ITfToolTipUIElement
 ITfTransitoryExtensionSink
