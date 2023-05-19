@@ -8,3 +8,4 @@
 [ITfDocumentMgr](TSFmanager/ITfDocumentMgr.md)							|文档管理器，用来创建和管理编辑内容对象。
 [ITfEditRecord](TSFmanager/ITfEditRecord.md)							|编辑记录，用来确定编辑会话期间更改的内容。
 [IEnumTfRanges](TSFmanager/IEnumTfRanges.md)							|片段对象枚举器，枚举片段对象。
+[ITfLangBarItemMgr](TSFmanager/ITfLangBarItemMgr.md)					|语言栏项目管理器，用于管理语言栏中的项目。

@@ -94,7 +94,7 @@ ITfLangBarItemBalloon语言栏气泡项目信息
 ITfLangBarItemBitmap语言栏位图项目信息
 ITfLangBarItemBitmapButton语言栏位图按钮项目信息
 ITfLangBarItemButton语言栏按钮项目信息
-ITfLangBarItemMgr语言栏项目管理器
+[ITfLangBarItemMgr](TSFmanager/ITfLangBarItemMgr.md)|语言栏项目管理器|语言栏
 ITfLangBarItemSink语言栏项目消息接收器
 ITfLangBarMgr语言栏管理器
 ITfLanguageProfileNotifySink语言配置消息接收器
