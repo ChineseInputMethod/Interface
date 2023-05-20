@@ -2,10 +2,9 @@
 
 - [由TSF管理器实现的接口](TSFmanager.md)
 
+- [由语言栏实现的接口](LanguageBar.md)
+
 - [由文本服务实现的接口](TextService.md)
-
-- 由应用程序实现的接口
-
 
 >索引
 
@@ -14,17 +13,17 @@
 IAnchor|片段标签|TSF管理器
 IEnumITfCompositionView|输入组合查看对象枚举器|
 IEnumTfCandidates|候选文字串对象枚举器|
-IEnumTfContexts|编辑内容对象枚举器|
+IEnumTfContexts|上下文枚举器|
 IEnumTfContextViews
 IEnumTfDisplayAttributeInfo|显示属性信息对象枚举器|
 IEnumTfDocumentMgrs文档管理器对象枚举器
 IEnumTfFunctionProviders功能提供者对象枚举器
-IEnumTfLangBarItems语言栏项目对象枚举器
+IEnumTfLangBarItems语言栏项枚举器
 IEnumTfLanguageProfiles语言配置枚举器
 IEnumTfLatticeElements单元格枚举器
 IEnumTfProperties属性对象枚举器
 IEnumTfPropertyValue属性值枚举器
-[IEnumTfRanges](TSFmanager/IEnumTfRanges.md)|片段对象枚举器|TSF管理器
+[IEnumTfRanges](TSFmanager/IEnumTfRanges.md)|文本范围枚举器|TSF管理器
 ISoftKbd
 ITextStoreACP|ACP式文本操作
 ITextStoreACP2
@@ -36,8 +35,8 @@ ITfActiveLanguageProfileNotifySink语言配置激活消息接收器
 ITfCandidateList候选列表对象
 ITfCandidateString候选文字串对象
 ITfCategoryMgr类别管理器
-ITfCleanupContextDurationSink编辑内容清除后消息接收器
-ITfCleanupContextSink编辑内容清除中消息接收器
+ITfCleanupContextDurationSink上下文清除后消息接收器
+ITfCleanupContextSink上下文清除中消息接收器
 ITfClientId客户端标识符对象
 ITfCompartment公共缓冲池对象
 ITfCompartmentEventSink公共缓冲池事件接收器
@@ -46,14 +45,14 @@ ITfComposition输入组合对象
 ITfCompositionSink输入组合结束消息接收器
 ITfCompositionView输入组合查看对象
 ITfConfigureSystemKeystrokeFeed按键处理管理
-ITfContext编辑内容对象
-ITfContextComposition编辑内容输入组合
-ITfContextKeyEventSink编辑内容键盘事件接收器
-ITfContextOwner编辑内容所有者
-ITfContextOwnerCompositionServices编辑内容所有者输入组合服务
-ITfContextOwnerCompositionSink编辑内容所有者输入组合消息接收器
-ITfContextOwnerServices编辑内容所有者服务
-ITfContextView编辑内容查看对象
+ITfContext上下文
+ITfContextComposition上下文输入组合
+ITfContextKeyEventSink上下文键盘事件接收器
+ITfContextOwner上下文所有者
+ITfContextOwnerCompositionServices上下文所有者输入组合服务
+ITfContextOwnerCompositionSink上下文所有者输入组合消息接收器
+ITfContextOwnerServices上下文所有者服务
+ITfContextView上下文查看对象
 ITfCreatePropertyStore创建属性存储
 ITfDisplayAttributeInfo显示属性信息
 ITfDisplayAttributeMgr显示属性管理器
@@ -64,7 +63,7 @@ ITfDisplayAttributeProvider显示属性提供者
 ITfEditSession编辑会话
 ITfEditTransactionSink编辑事务消息接收器
 ITfFnAdviseText文本消息接收器
-ITfFnBalloon气泡项目更新
+ITfFnBalloon气泡项更新
 ITfFnConfigure文本服务自配选项设置对话框
 ITfFnConfigureRegisterWord候选文字注册对话框
 ITfFnGetLinguisticAlternates
@@ -89,17 +88,17 @@ ITfKeyEventSink键盘事件接收器
 ITfKeystrokeMgr按键管理器
 ITfKeyTraceEventSink按键跟踪事件接收器
 ITfLangBarEventSink语言栏事件接收器
-ITfLangBarItem语言栏项目信息
-ITfLangBarItemBalloon语言栏气泡项目信息
-ITfLangBarItemBitmap语言栏位图项目信息
-ITfLangBarItemBitmapButton语言栏位图按钮项目信息
-ITfLangBarItemButton语言栏按钮项目信息
-[ITfLangBarItemMgr](TSFmanager/ITfLangBarItemMgr.md)|语言栏项目管理器|语言栏
-ITfLangBarItemSink语言栏项目消息接收器
+[ITfLangBarItem](TextService/ITfLangBarItem.md)|语言栏项信息|文本服务
+ITfLangBarItemBalloon语言栏气泡项信息
+ITfLangBarItemBitmap语言栏位图项信息
+ITfLangBarItemBitmapButton语言栏位图按钮项信息
+[ITfLangBarItemButton](TextService/ITfLangBarItemButton.md)|语言栏按钮项信息|文本服务
+[ITfLangBarItemMgr](LanguageBar/ITfLangBarItemMgr.md)|语言栏项管理器|语言栏
+[ITfLangBarItemSink](LanguageBar/ITfLangBarItemSink.md)|语言栏项消息接收器|语言栏
 ITfLangBarMgr语言栏管理器
 ITfLanguageProfileNotifySink语言配置消息接收器
 ITfLMLattice提供语音栅格属性
-ITfMenu语言栏菜单扩展
+[ITfMenu](LanguageBar/ITfMenu.md)|语言栏菜单扩展|语言栏
 ITfMessagePump消息抽取
 ITfMouseSink鼠标事件消息接收器
 ITfMouseTracker鼠标事件消息接收器管理
@@ -110,20 +109,20 @@ ITfPreservedKeyNotifySink按键保护消息接收器
 ITfProperty属性设置
 ITfPropertyStore属性存储
 ITfQueryEmbedded询问可否嵌入
-ITfRange片段
-ITfRangeACP为ACP应用程序使用的片段
-ITfRangeBackup片段备份
+ITfRange范围
+ITfRangeACP为ACP应用程序使用的范围
+ITfRangeBackup范围备份
 ITfReadOnlyProperty只读属性
 ITfReverseConversion
 ITfReverseConversionList
 ITfReverseConversionMgr
-[ITfSource](TSFmanager/ITfSource.md)|消息接收器|TSF管理器
-ITfSourceSingle单一消息接收器
+[ITfSource](TSFmanager/ITfSource.md)|事件安装器|TSF管理器
+ITfSourceSingle单一事件安装器
 ITfSpeechUIServer语音用户界面服务器
 ITfStatusSink文档状态消息接收器
 ITfSystemDeviceTypeLangBarItem系统驱动类型语言栏项目应用
-ITfSystemLangBarItem系统语言栏项目应用扩展
-ITfSystemLangBarItemSink系统语言栏项目扩展槽
+ITfSystemLangBarItem系统语言栏项应用扩展
+ITfSystemLangBarItemSink系统语言栏项扩展槽
 [ITfTextEditSink](TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
 [ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
 ITfTextLayoutSink文本布局消息接收器
