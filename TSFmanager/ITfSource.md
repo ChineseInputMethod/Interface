@@ -1,6 +1,6 @@
 ### [ITfSource](https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nn-msctf-itfsource)
 
-消息接收器，用于安装事件接收器。
+事件安装器，用于安装事件接收器。
 
 方法						|描述
 -|-

@@ -1,6 +1,6 @@
 ### [IEnumTfRanges](https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nn-msctf-ienumtfranges)
 
-片段对象枚举器，枚举片段对象。
+范围枚举器，枚举范围对象。
 
 方法					|描述
 -|-

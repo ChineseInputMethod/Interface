@@ -1,6 +1,6 @@
 ### [ITfContext](https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nn-msctf-itfcontext)
 
-编辑内容对象，用来创建和管理编辑内容对象。
+上下文，用来创建和管理编辑上下文。
 
 方法					|描述
 -|-

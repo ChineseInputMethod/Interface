@@ -5,7 +5,7 @@
 方法					|描述
 -|-
 [GetSelectionStatus][1]			|确定在编辑会话期间所选内容是否已更改。
-[GetTextAndPropertyUpdates][2]	|获取片段对象枚举器。
+[GetTextAndPropertyUpdates][2]	|获取范围枚举器。
 
 [1]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfeditrecord-getselectionstatus
 [2]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfeditrecord-gettextandpropertyupdates
