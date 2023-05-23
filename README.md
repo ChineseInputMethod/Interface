@@ -8,7 +8,7 @@
 
 >索引
 
-接口|指称|实现
+接口|指称|				实现
 -|-|-
 IAnchor|片段标签|TSF管理器
 IEnumITfCompositionView|输入组合查看对象枚举器|
@@ -109,9 +109,9 @@ ITfPreservedKeyNotifySink按键保护消息接收器
 ITfProperty属性设置
 ITfPropertyStore属性存储
 ITfQueryEmbedded询问可否嵌入
-[ITfRange](TextService/ITfRange.md)|文本范围|文本服务
-ITfRangeACP为ACP应用程序使用的范围
-ITfRangeBackup范围备份
+[ITfRange](TSFmanager/ITfRange.md)|文本范围|TSF管理器
+ITfRangeACP|为ACP应用程序使用的文本范围
+ITfRangeBackup文本范围备份
 ITfReadOnlyProperty只读属性
 ITfReverseConversion
 ITfReverseConversionList
