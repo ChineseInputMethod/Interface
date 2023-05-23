@@ -37,7 +37,7 @@ ITfCandidateString候选文字串对象
 ITfCategoryMgr类别管理器
 ITfCleanupContextDurationSink上下文清除后消息接收器
 ITfCleanupContextSink上下文清除中消息接收器
-ITfClientId客户端标识符对象
+ITfClientId获取客户端标识符
 ITfCompartment公共缓冲池对象
 ITfCompartmentEventSink公共缓冲池事件接收器
 ITfCompartmentMgr公共缓冲池管理器
@@ -45,7 +45,7 @@ ITfComposition输入组合对象
 ITfCompositionSink输入组合结束消息接收器
 ITfCompositionView输入组合查看对象
 ITfConfigureSystemKeystrokeFeed按键处理管理
-ITfContext上下文
+[ITfContext](TSFmanager/ITfContext.md)|上下文|TSF管理器
 ITfContextComposition上下文输入组合
 ITfContextKeyEventSink上下文键盘事件接收器
 ITfContextOwner上下文所有者
@@ -60,7 +60,7 @@ ITfDisplayAttributeNotifySink显示属性消息接收器
 ITfDisplayAttributeProvider显示属性提供者
 [ITfDocumentMgr](TSFmanager/ITfDocumentMgr.md)|文档管理器|TSF管理器
 [ITfEditRecord](TSFmanager/ITfEditRecord.md)|编辑记录|TSF管理器
-ITfEditSession编辑会话
+[ITfEditSession](TextService/ITfEditSession.md)|编辑会话|文本服务
 ITfEditTransactionSink编辑事务消息接收器
 ITfFnAdviseText文本消息接收器
 ITfFnBalloon气泡项更新
@@ -83,7 +83,7 @@ ITfIntegratableCandidateListUIElement
 ITfInputProcessorProfilesEx设置文本服务语言配置的显示名称
 ITfInputProcessorProfileSubstituteLayout文本服务配置的键盘布局操作
 ITfInputScope定向输入识别类型
-ITfInsertAtSelection在选定位置插入内容
+[ITfInsertAtSelection](TSFmanager/ITfInsertAtSelection.md)|在选定位置插入内容|TSF管理器
 ITfKeyEventSink键盘事件接收器
 ITfKeystrokeMgr按键管理器
 ITfKeyTraceEventSink按键跟踪事件接收器
@@ -109,7 +109,7 @@ ITfPreservedKeyNotifySink按键保护消息接收器
 ITfProperty属性设置
 ITfPropertyStore属性存储
 ITfQueryEmbedded询问可否嵌入
-ITfRange范围
+[ITfRange](TextService/ITfRange.md)|文本范围|文本服务
 ITfRangeACP为ACP应用程序使用的范围
 ITfRangeBackup范围备份
 ITfReadOnlyProperty只读属性

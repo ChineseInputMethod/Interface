@@ -1,6 +1,6 @@
 ### [ITfLangBarItemButton](https://learn.microsoft.com/zh-cn/windows/win32/api/ctfutb/nn-ctfutb-ITfLangBarItemButton)
 
-语言栏按钮项信息，由语言栏管理器用来获取有关语言栏上的按钮项的信息。
+语言栏按钮项信息，由语言栏管理器用来获取语言栏上的按钮项信息。
 
 方法|描述
 -|-
