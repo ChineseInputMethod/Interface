@@ -8,7 +8,7 @@
 
 >索引
 
-接口|指称|				实现
+接口|指称|      实现
 -|-|-
 IAnchor|片段标签|TSF管理器
 IEnumITfCompositionView|输入组合查看对象枚举器|
@@ -34,13 +34,13 @@ ITextStoreAnchorSink文本存储片段标签事件接收器
 ITfActiveLanguageProfileNotifySink语言配置激活消息接收器
 ITfCandidateList候选列表对象
 ITfCandidateString候选文字串对象
-ITfCategoryMgr类别管理器
+[ITfCategoryMgr](TSFmanager/ITfCategoryMgr.md)|类别管理器|TSF管理器
 ITfCleanupContextDurationSink上下文清除后消息接收器
 ITfCleanupContextSink上下文清除中消息接收器
 ITfClientId获取客户端标识符
-ITfCompartment公共缓冲池对象
+[ITfCompartment](TSFmanager/ITfCompartment.md)|公共缓冲池|TSF管理器
 ITfCompartmentEventSink公共缓冲池事件接收器
-ITfCompartmentMgr公共缓冲池管理器
+[ITfCompartmentMgr](TSFmanager/ITfCompartmentMgr.md)|公共缓冲池管理器|TSF管理器
 ITfComposition输入组合对象
 ITfCompositionSink输入组合结束消息接收器
 ITfCompositionView输入组合查看对象
@@ -84,8 +84,8 @@ ITfInputProcessorProfilesEx设置文本服务语言配置的显示名称
 ITfInputProcessorProfileSubstituteLayout文本服务配置的键盘布局操作
 ITfInputScope定向输入识别类型
 [ITfInsertAtSelection](TSFmanager/ITfInsertAtSelection.md)|在选定位置插入内容|TSF管理器
-ITfKeyEventSink键盘事件接收器
-ITfKeystrokeMgr按键管理器
+[ITfKeyEventSink](TextService/ITfKeyEventSink.md)|键盘事件接收器|文本服务
+[ITfKeystrokeMgr](TSFmanager/ITfKeystrokeMgr.md)|按键管理器|TSF管理器
 ITfKeyTraceEventSink按键跟踪事件接收器
 ITfLangBarEventSink语言栏事件接收器
 [ITfLangBarItem](TextService/ITfLangBarItem.md)|语言栏项信息|文本服务
