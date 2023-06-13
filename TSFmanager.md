@@ -15,3 +15,5 @@
 [ITfKeystrokeMgr](TSFmanager/ITfKeystrokeMgr.md)						|按键管理器，主要用来安装键盘事件接收器和注册保留键。
 [ITfCompartmentMgr](TSFmanager/ITfCompartmentMgr.md)					|公共缓冲池管理器，用于管理客户端之间的共享数据。
 [ITfCompartment](TSFmanager/ITfCompartment.md)							|公共缓冲池，用于获取和设置公共缓冲池中的数据以及安装ITfCompartmentEventSink公共缓冲池事件接收器。
+[ITfContextComposition](TSFmanager/ITfContextComposition.md)			|上下文输入组合，用于创建ITfComposition输入组合。
+[ITfComposition](TSFmanager/ITfContextComposition.md)					|输入组合，用于终止ITfComposition输入组合和操作输入组合的ITfRange文本范围。
