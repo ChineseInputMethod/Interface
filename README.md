@@ -8,14 +8,14 @@
 
 >索引
 
-接口|指称|      实现
+接口|指称|实现
 -|-|-
 IAnchor|片段标签|TSF管理器
 IEnumITfCompositionView|输入组合查看对象枚举器|
 IEnumTfCandidates|候选文字串对象枚举器|
 IEnumTfContexts|上下文枚举器|
 IEnumTfContextViews
-IEnumTfDisplayAttributeInfo|显示属性信息对象枚举器|
+[IEnumTfDisplayAttributeInfo](TextService/IEnumTfDisplayAttributeInfo.md)|显示属性信息对象枚举器|文本服务
 IEnumTfDocumentMgrs文档管理器对象枚举器
 IEnumTfFunctionProviders功能提供者对象枚举器
 IEnumTfLangBarItems语言栏项枚举器
@@ -54,10 +54,10 @@ ITfContextOwnerCompositionSink上下文所有者输入组合消息接收器
 ITfContextOwnerServices上下文所有者服务
 ITfContextView上下文查看对象
 ITfCreatePropertyStore创建属性存储
-ITfDisplayAttributeInfo显示属性信息
+[ITfDisplayAttributeInfo](TextService/ITfDisplayAttributeInfo.md)|显示属性信息|文本服务
 ITfDisplayAttributeMgr显示属性管理器
 ITfDisplayAttributeNotifySink显示属性消息接收器
-ITfDisplayAttributeProvider显示属性提供者
+[ITfDisplayAttributeProvider](TextService/ITfDisplayAttributeProvider.md)|显示属性提供者|文本服务
 [ITfDocumentMgr](TSFmanager/ITfDocumentMgr.md)|文档管理器|TSF管理器
 [ITfEditRecord](TSFmanager/ITfEditRecord.md)|编辑记录|TSF管理器
 [ITfEditSession](TextService/ITfEditSession.md)|编辑会话|文本服务
@@ -106,7 +106,7 @@ ITfMouseTrackerACP|ACP应用程序鼠标事件消息接收器管理
 ITfMSAAControl微软辅助功能应用控制
 ITfPersistentPropertyLoaderACP属性的异步载入
 ITfPreservedKeyNotifySink按键保护消息接收器
-ITfProperty属性设置
+[ITfProperty](TSFmanager/ITfProperty.md)|属性设置|TSF管理器
 ITfPropertyStore属性存储
 ITfQueryEmbedded询问可否嵌入
 [ITfRange](TSFmanager/ITfRange.md)|文本范围|TSF管理器
