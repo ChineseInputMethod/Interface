@@ -13,3 +13,5 @@
 [ITfDisplayAttributeProvider](TextService/ITfDisplayAttributeProvider.md)	|显示属性提供者，由TSF管理器用来枚举和获取单个显示属性信息对象。
 [ITfDisplayAttributeInfo](TextService/ITfDisplayAttributeInfo.md)			|显示属性信息对象，为应用程序提供显示属性信息。
 [IEnumTfDisplayAttributeInfo](TextService/IEnumTfDisplayAttributeInfo.md)	|显示属性信息对象枚举器，官方文档称此接口由TSF管理器实现。
+[ITfContextKeyEventSink](TextService/ITfContextKeyEventSink.md)				|上下文键盘事件接收器，用于接收输入上下文中发生的键盘事件通知，保留的键事件和筛选的键事件不会传递到ITfContextKeyEventSink事件接收器。
+[ITfTextLayoutSink](TextService/ITfTextLayoutSink.md)						|文本布局消息接收器，通过跟踪布局更改消息，实现光标跟随。

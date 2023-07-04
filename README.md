@@ -47,12 +47,12 @@ ITfCompositionView输入组合查看对象
 ITfConfigureSystemKeystrokeFeed按键处理管理
 [ITfContext](TSFmanager/ITfContext.md)|上下文|TSF管理器
 [ITfContextComposition](TSFmanager/ITfContextComposition.md)|上下文输入组合|TSF管理器
-ITfContextKeyEventSink上下文键盘事件接收器
+[ITfContextKeyEventSink](TextService/ITfContextKeyEventSink.md)|上下文键盘事件接收器|文本服务
 ITfContextOwner上下文所有者
 ITfContextOwnerCompositionServices上下文所有者输入组合服务
 ITfContextOwnerCompositionSink上下文所有者输入组合消息接收器
 ITfContextOwnerServices上下文所有者服务
-ITfContextView上下文查看对象
+[ITfContextView](TSFmanager/ITfContextView.md)|上下文视图对象|TSF管理器
 ITfCreatePropertyStore创建属性存储
 [ITfDisplayAttributeInfo](TextService/ITfDisplayAttributeInfo.md)|显示属性信息|文本服务
 ITfDisplayAttributeMgr显示属性管理器
@@ -125,7 +125,7 @@ ITfSystemLangBarItem系统语言栏项应用扩展
 ITfSystemLangBarItemSink系统语言栏项扩展槽
 [ITfTextEditSink](TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
 [ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
-ITfTextLayoutSink文本布局消息接收器
+[ITfTextLayoutSink](TextService/ITfTextLayoutSink.md)|文本布局消息接收器|文本服务
 ITfThreadFocusSink线程输入焦点消息接收器
 [ITfThreadMgr](TSFmanager/ITfThreadMgr.md)|线程管理器|TSF管理器
 ITfThreadMgr2

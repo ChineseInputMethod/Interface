@@ -18,3 +18,4 @@
 [ITfContextComposition](TSFmanager/ITfContextComposition.md)			|上下文输入组合，用于创建ITfComposition输入组合。
 [ITfComposition](TSFmanager/ITfComposition.md)							|输入组合，用于终止ITfComposition输入组合和操作输入组合的ITfRange文本范围。
 [ITfProperty](TSFmanager/ITfProperty.md)								|属性设置，由客户端(应用程序或文本服务)用来修改显示属性。
+[ITfContextView](TSFmanager/ITfContextView.md)							|上下文视图对象，由客户端(应用程序或文本服务)用来获取上下文视图的信息。
