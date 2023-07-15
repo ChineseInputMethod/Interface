@@ -19,3 +19,6 @@
 [ITfComposition](TSFmanager/ITfComposition.md)							|输入组合，用于终止ITfComposition输入组合和操作输入组合的ITfRange文本范围。
 [ITfProperty](TSFmanager/ITfProperty.md)								|属性设置，由客户端(应用程序或文本服务)用来修改显示属性。
 [ITfContextView](TSFmanager/ITfContextView.md)							|上下文视图对象，由客户端(应用程序或文本服务)用来获取上下文视图的信息。
+[IEnumTfProperties](TSFmanager/IEnumTfProperties.md)					|属性对象枚举器，用于枚举文档属性。
+[ITfReadOnlyProperty](TSFmanager/ITfReadOnlyProperty.md)				|只读属性，ITfProperty继承此接口。
+[ITfDisplayAttributeMgr](TSFmanager/ITfDisplayAttributeMgr.md)			|显示属性管理器，由应用程序用来获取和枚举显示属性。

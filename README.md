@@ -21,7 +21,7 @@ IEnumTfFunctionProviders功能提供者对象枚举器
 IEnumTfLangBarItems语言栏项枚举器
 IEnumTfLanguageProfiles语言配置枚举器
 IEnumTfLatticeElements单元格枚举器
-IEnumTfProperties属性对象枚举器
+[IEnumTfProperties](TSFmanager/IEnumTfProperties.md)|属性对象枚举器|TSF管理器
 IEnumTfPropertyValue属性值枚举器
 [IEnumTfRanges](TSFmanager/IEnumTfRanges.md)|文本范围枚举器|TSF管理器
 ISoftKbd
@@ -55,7 +55,7 @@ ITfContextOwnerServices上下文所有者服务
 [ITfContextView](TSFmanager/ITfContextView.md)|上下文视图对象|TSF管理器
 ITfCreatePropertyStore创建属性存储
 [ITfDisplayAttributeInfo](TextService/ITfDisplayAttributeInfo.md)|显示属性信息|文本服务
-ITfDisplayAttributeMgr显示属性管理器
+[ITfDisplayAttributeMgr](TSFmanager/ITfDisplayAttributeMgr.md)|显示属性管理器|TSF管理器
 ITfDisplayAttributeNotifySink显示属性消息接收器
 [ITfDisplayAttributeProvider](TextService/ITfDisplayAttributeProvider.md)|显示属性提供者|文本服务
 [ITfDocumentMgr](TSFmanager/ITfDocumentMgr.md)|文档管理器|TSF管理器
@@ -112,7 +112,7 @@ ITfQueryEmbedded询问可否嵌入
 [ITfRange](TSFmanager/ITfRange.md)|文本范围|TSF管理器
 ITfRangeACP|为ACP应用程序使用的文本范围
 ITfRangeBackup文本范围备份
-ITfReadOnlyProperty只读属性
+[ITfReadOnlyProperty](TSFmanager/ITfReadOnlyProperty.md)|只读属性|TSF管理器
 ITfReverseConversion
 ITfReverseConversionList
 ITfReverseConversionMgr
@@ -126,7 +126,7 @@ ITfSystemLangBarItemSink系统语言栏项扩展槽
 [ITfTextEditSink](TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
 [ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
 [ITfTextLayoutSink](TextService/ITfTextLayoutSink.md)|文本布局消息接收器|文本服务
-ITfThreadFocusSink线程输入焦点消息接收器
+[ITfThreadFocusSink](TextService/ITfThreadFocusSink.md)|线程输入焦点消息接收器|文本服务
 [ITfThreadMgr](TSFmanager/ITfThreadMgr.md)|线程管理器|TSF管理器
 ITfThreadMgr2
 [ITfThreadMgrEventSink](TextService/ITfThreadMgrEventSink.md)|线程管理器事件接收器|文本服务
