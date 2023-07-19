@@ -53,7 +53,7 @@ ITfContextOwnerCompositionServices上下文所有者输入组合服务
 ITfContextOwnerCompositionSink上下文所有者输入组合消息接收器
 ITfContextOwnerServices上下文所有者服务
 [ITfContextView](TSFmanager/ITfContextView.md)|上下文视图对象|TSF管理器
-ITfCreatePropertyStore创建属性存储
+[ITfCreatePropertyStore](TextService/ITfCreatePropertyStore.md)|创建属性存储|文本服务
 [ITfDisplayAttributeInfo](TextService/ITfDisplayAttributeInfo.md)|显示属性信息|文本服务
 [ITfDisplayAttributeMgr](TSFmanager/ITfDisplayAttributeMgr.md)|显示属性管理器|TSF管理器
 ITfDisplayAttributeNotifySink显示属性消息接收器
@@ -107,7 +107,7 @@ ITfMSAAControl微软辅助功能应用控制
 ITfPersistentPropertyLoaderACP属性的异步载入
 ITfPreservedKeyNotifySink按键保护消息接收器
 [ITfProperty](TSFmanager/ITfProperty.md)|属性设置|TSF管理器
-ITfPropertyStore属性存储
+[ITfPropertyStore](TextService/ITfPropertyStore.md)|属性存储|文本服务
 ITfQueryEmbedded询问可否嵌入
 [ITfRange](TSFmanager/ITfRange.md)|文本范围|TSF管理器
 ITfRangeACP|为ACP应用程序使用的文本范围

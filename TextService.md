@@ -16,3 +16,5 @@
 [ITfContextKeyEventSink](TextService/ITfContextKeyEventSink.md)				|上下文键盘事件接收器，用于接收输入上下文中发生的键盘事件通知，保留的键事件和筛选的键事件不会传递到ITfContextKeyEventSink事件接收器。
 [ITfTextLayoutSink](TextService/ITfTextLayoutSink.md)						|文本布局消息接收器，通过跟踪布局更改消息，实现光标跟随。
 [ITfThreadFocusSink](TextService/ITfThreadFocusSink.md)						|线程输入焦点消息接收器，在线程接收或失去UI焦点时接收通知。
+[ITfPropertyStore](TextService/ITfPropertyStore.md)							|属性存储，由TSF管理器用来提供非静态属性值。
+[ITfCreatePropertyStore](TextService/ITfCreatePropertyStore.md)				|创建属性存储，本节未演示此接口。
