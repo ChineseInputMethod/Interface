@@ -6,7 +6,7 @@
 
 - [由文本服务实现的接口](TextService.md)
 
->索引
+>[索引](https://learn.microsoft.com/zh-cn/windows/win32/api/_tsf/#interfaces)
 
 接口|指称|实现
 -|-|-
@@ -18,13 +18,15 @@ IEnumTfContextViews
 [IEnumTfDisplayAttributeInfo](TextService/IEnumTfDisplayAttributeInfo.md)|显示属性信息对象枚举器|文本服务
 IEnumTfDocumentMgrs文档管理器对象枚举器
 IEnumTfFunctionProviders功能提供者对象枚举器
+IEnumTfInputProcessorProfiles
 IEnumTfLangBarItems语言栏项枚举器
 IEnumTfLanguageProfiles语言配置枚举器
 IEnumTfLatticeElements单元格枚举器
 [IEnumTfProperties](TSFmanager/IEnumTfProperties.md)|属性对象枚举器|TSF管理器
 IEnumTfPropertyValue属性值枚举器
 [IEnumTfRanges](TSFmanager/IEnumTfRanges.md)|文本范围枚举器|TSF管理器
-ISoftKbd
+IEnumTfUIElements
+//ISoftKbd
 ITextStoreACP|ACP式文本操作
 ITextStoreACP2
 ITextStoreACPServices|ACP式文本服务
@@ -33,6 +35,8 @@ ITextStoreAnchor文本存储片段标签
 ITextStoreAnchorSink文本存储片段标签事件接收器
 ITfActiveLanguageProfileNotifySink语言配置激活消息接收器
 ITfCandidateList候选列表对象
+ITfCandidateListUIElement
+ITfCandidateListUIElementBehavior
 ITfCandidateString候选文字串对象
 [ITfCategoryMgr](TSFmanager/ITfCategoryMgr.md)|类别管理器|TSF管理器
 ITfCleanupContextDurationSink上下文清除后消息接收器
@@ -65,10 +69,12 @@ ITfEditTransactionSink编辑事务消息接收器
 ITfFnAdviseText文本消息接收器
 ITfFnBalloon气泡项更新
 ITfFnConfigure文本服务自配选项设置对话框
+ITfFnConfigureRegisterEudc
 ITfFnConfigureRegisterWord候选文字注册对话框
 ITfFnGetLinguisticAlternates
-ITfFnGetPreferredTouchKeyboardLayout
+ITfFnGetPreferredTouchKeyboardLayout获取首选触摸键盘布局
 ITfFnGetSAPIObject获取语音应用编程接口对象
+ITfFnLangProfileUtil
 ITfFnLMInternal
 ITfFnLMProcessor语言模型处理器
 ITfFnPlayBack语音数据控制
@@ -78,12 +84,15 @@ ITfFnSearchCandidateProvider
 ITfFnShowHelp文本服务自配帮助信息
 ITfFunction扩展功能对象
 ITfFunctionProvider扩展功能提供者
-ITfIntegratableCandidateListUIElement
+ITfInputProcessorProfileActivationSink
+[ITfInputProcessorProfileMgr](TSFmanager/ITfInputProcessorProfileMgr.md)|文本服务语言配置管理器|TSF管理器
 [ITfInputProcessorProfiles](TSFmanager/ITfInputProcessorProfiles.md)|文本服务语言配置操作|TSF管理器
 ITfInputProcessorProfilesEx设置文本服务语言配置的显示名称
 ITfInputProcessorProfileSubstituteLayout文本服务配置的键盘布局操作
 ITfInputScope定向输入识别类型
+ITfInputScope2
 [ITfInsertAtSelection](TSFmanager/ITfInsertAtSelection.md)|在选定位置插入内容|TSF管理器
+ITfIntegratableCandidateListUIElement
 [ITfKeyEventSink](TextService/ITfKeyEventSink.md)|键盘事件接收器|文本服务
 [ITfKeystrokeMgr](TSFmanager/ITfKeystrokeMgr.md)|按键管理器|TSF管理器
 ITfKeyTraceEventSink按键跟踪事件接收器
@@ -112,6 +121,7 @@ ITfQueryEmbedded询问可否嵌入
 [ITfRange](TSFmanager/ITfRange.md)|文本范围|TSF管理器
 ITfRangeACP|为ACP应用程序使用的文本范围
 ITfRangeBackup文本范围备份
+ITfReadingInformationUIElement
 [ITfReadOnlyProperty](TSFmanager/ITfReadOnlyProperty.md)|只读属性|TSF管理器
 ITfReverseConversion
 ITfReverseConversionList
@@ -123,8 +133,10 @@ ITfStatusSink文档状态消息接收器
 ITfSystemDeviceTypeLangBarItem系统驱动类型语言栏项目应用
 ITfSystemLangBarItem系统语言栏项应用扩展
 ITfSystemLangBarItemSink系统语言栏项扩展槽
+ITfSystemLangBarItemText
 [ITfTextEditSink](TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
 [ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
+ITfTextInputProcessorEx
 [ITfTextLayoutSink](TextService/ITfTextLayoutSink.md)|文本布局消息接收器|文本服务
 [ITfThreadFocusSink](TextService/ITfThreadFocusSink.md)|线程输入焦点消息接收器|文本服务
 [ITfThreadMgr](TSFmanager/ITfThreadMgr.md)|线程管理器|TSF管理器
