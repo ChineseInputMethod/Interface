@@ -136,7 +136,7 @@ ITfSystemLangBarItemSink系统语言栏项扩展槽
 ITfSystemLangBarItemText
 [ITfTextEditSink](TextService/ITfTextEditSink.md)|编辑会话完成消息接收器|文本服务
 [ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器|文本服务
-ITfTextInputProcessorEx
+[ITfTextInputProcessorEx](TextService/ITfTextInputProcessorEx.md)|文本输入处理器|文本服务
 [ITfTextLayoutSink](TextService/ITfTextLayoutSink.md)|文本布局消息接收器|文本服务
 [ITfThreadFocusSink](TextService/ITfThreadFocusSink.md)|线程输入焦点消息接收器|文本服务
 [ITfThreadMgr](TSFmanager/ITfThreadMgr.md)|线程管理器|TSF管理器
