@@ -6,6 +6,8 @@
 
 - [由文本服务实现的接口](TextService.md)
 
+- [由应用程序实现的接口](Application.md)
+
 >[索引](https://learn.microsoft.com/zh-cn/windows/win32/api/_tsf/#interfaces)
 
 接口|指称|实现
@@ -33,7 +35,7 @@ ITextStoreACPServices|ACP式文本服务
 ITextStoreACPSink|ACP式文本操作事件接收器
 ITextStoreAnchor文本存储片段标签
 ITextStoreAnchorSink文本存储片段标签事件接收器
-ITfActiveLanguageProfileNotifySink语言配置激活消息接收器
+[ITfActiveLanguageProfileNotifySink](Application/ITfActiveLanguageProfileNotifySink.md)|语言配置激活消息接收器|应用程序
 ITfCandidateList候选列表对象
 ITfCandidateListUIElement
 ITfCandidateListUIElementBehavior
