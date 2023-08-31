@@ -129,7 +129,7 @@ ITfReverseConversion
 ITfReverseConversionList
 ITfReverseConversionMgr
 [ITfSource](TSFmanager/ITfSource.md)|事件安装器|TSF管理器
-ITfSourceSingle单一事件安装器
+[ITfSourceSingle](TSFmanager/ITfSourceSingle.md)|单一事件安装器|TSF管理器
 ITfSpeechUIServer语音用户界面服务器
 ITfStatusSink文档状态消息接收器
 ITfSystemDeviceTypeLangBarItem系统驱动类型语言栏项目应用

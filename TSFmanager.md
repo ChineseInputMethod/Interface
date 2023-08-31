@@ -23,3 +23,4 @@
 [IEnumTfProperties](TSFmanager/IEnumTfProperties.md)						|属性对象枚举器，用于枚举文档属性。
 [ITfReadOnlyProperty](TSFmanager/ITfReadOnlyProperty.md)					|只读属性，ITfProperty继承此接口。
 [ITfDisplayAttributeMgr](TSFmanager/ITfDisplayAttributeMgr.md)				|显示属性管理器，由应用程序用来获取和枚举显示属性。
+[ITfSourceSingle](TSFmanager/ITfSourceSingle.md)							|单一事件安装器，与ITfSource的不同之处在于，ITfSourceSingle安装的事件接收器一次仅支持一个事件接收器。
