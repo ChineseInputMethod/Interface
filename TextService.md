@@ -19,3 +19,4 @@
 [ITfThreadFocusSink](TextService/ITfThreadFocusSink.md)						|线程输入焦点消息接收器，在线程接收或失去UI焦点时接收通知。
 [ITfPropertyStore](TextService/ITfPropertyStore.md)							|属性存储，由TSF管理器用来提供非静态属性值。
 [ITfCreatePropertyStore](TextService/ITfCreatePropertyStore.md)				|创建属性存储，本节未演示此接口。
+[ITfFunctionProvider](TextService/ITfFunctionProvider.md)					|扩展功能提供者，提供各种函数对象。
