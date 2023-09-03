@@ -84,7 +84,7 @@ ITfFnPropertyUIStatus属性UI状态控制
 ITfFnReconversion文本恢复功能
 ITfFnSearchCandidateProvider
 ITfFnShowHelp文本服务自配帮助信息
-ITfFunction扩展功能对象
+[ITfFunction](TextService/ITfFunction.md)|扩展功能对象|文本服务
 [ITfFunctionProvider](TextService/ITfFunctionProvider.md)|扩展功能提供者|文本服务
 ITfInputProcessorProfileActivationSink
 [ITfInputProcessorProfileMgr](TSFmanager/ITfInputProcessorProfileMgr.md)|文本服务语言配置管理器|TSF管理器

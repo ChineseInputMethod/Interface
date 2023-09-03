@@ -20,3 +20,4 @@
 [ITfPropertyStore](TextService/ITfPropertyStore.md)							|属性存储，由TSF管理器用来提供非静态属性值。
 [ITfCreatePropertyStore](TextService/ITfCreatePropertyStore.md)				|创建属性存储，本节未演示此接口。
 [ITfFunctionProvider](TextService/ITfFunctionProvider.md)					|扩展功能提供者，提供各种函数对象。
+[ITfFunction](TextService/ITfFunction.md)									|扩展功能对象，ITfFunction接口是各个函数接口的基接口。
