@@ -88,7 +88,7 @@ ITfFnShowHelp文本服务自配帮助信息
 [ITfFunctionProvider](TextService/ITfFunctionProvider.md)|扩展功能提供者|文本服务
 ITfInputProcessorProfileActivationSink
 [ITfInputProcessorProfileMgr](TSFmanager/ITfInputProcessorProfileMgr.md)|文本服务语言配置管理器|TSF管理器
-[ITfInputProcessorProfiles](TSFmanager/ITfInputProcessorProfiles.md)|文本服务语言配置操作|TSF管理器
+[ITfInputProcessorProfiles](TSFmanager/ITfInputProcessorProfiles.md)|文本服务语言配置|TSF管理器
 ITfInputProcessorProfilesEx设置文本服务语言配置的显示名称
 ITfInputProcessorProfileSubstituteLayout文本服务配置的键盘布局操作
 ITfInputScope定向输入识别类型
