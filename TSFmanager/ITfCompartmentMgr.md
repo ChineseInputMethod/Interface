@@ -4,6 +4,6 @@
 
 方法						|描述
 -|-
-[GetCompartment][1]			|获取公共缓冲池。
+[GetCompartment][1]		|获取公共缓冲池。
 
 [1]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcompartmentmgr-getcompartment

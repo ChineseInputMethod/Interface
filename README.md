@@ -45,7 +45,7 @@ ITfCleanupContextDurationSink上下文清除后消息接收器
 ITfCleanupContextSink上下文清除中消息接收器
 ITfClientId获取客户端标识符
 [ITfCompartment](TSFmanager/ITfCompartment.md)|公共缓冲池|TSF管理器
-ITfCompartmentEventSink公共缓冲池事件接收器
+[ITfCompartmentEventSink](TextService/ITfCompartmentEventSink.md)|公共缓冲池事件接收器|文本服务
 [ITfCompartmentMgr](TSFmanager/ITfCompartmentMgr.md)|公共缓冲池管理器|TSF管理器
 [ITfComposition](TSFmanager/ITfComposition.md)|输入组合|TSF管理器
 [ITfCompositionSink](TextService/ITfCompositionSink.md)|输入组合终止消息接收器|文本服务

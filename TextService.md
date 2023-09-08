@@ -1,6 +1,6 @@
 ### 由文本服务实现的接口
 
-接口																							|描述
+接口|描述
 -|-
 [ITfTextInputProcessor](TextService/ITfTextInputProcessor.md)|文本输入处理器，激活和停用文本服务。
 [ITfTextInputProcessorEx](TextService/ITfTextInputProcessorEx.md)|文本输入处理器，继承ITfTextInputProcessor，扩展了文本服务的激活方式。
@@ -22,3 +22,4 @@
 [ITfFunctionProvider](TextService/ITfFunctionProvider.md)|扩展功能提供者，提供各种函数对象。
 [ITfFunction](TextService/ITfFunction.md)|扩展功能对象，ITfFunction接口是各个函数接口的基接口。
 [ITfFnGetPreferredTouchKeyboardLayout](TextService/ITfFnGetPreferredTouchKeyboardLayout.md)|获取首选触摸键盘布局，指定Windows 8触摸键盘支持的键盘布局。
+[ITfCompartmentEventSink](TextService/ITfCompartmentEventSink.md)|公共缓冲池事件接收器，当缓冲池数据发生更改时，TSF管理器通知客户端。
