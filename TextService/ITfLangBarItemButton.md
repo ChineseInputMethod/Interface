@@ -5,5 +5,7 @@
 方法|描述
 -|-
 [InitMenu][1]			|当按钮项为TF_LBI_STYLE_BTN_MENU样式，使用此方法加载菜单项。
+[OnClick][2]			|当按钮项为TF_LBI_STYLE_BTN_BUTTON样式，使用此方法处理单击事件。
 
 [1]: https://learn.microsoft.com/zh-cn/windows/win32/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu
+[2]: https://learn.microsoft.com/zh-cn/windows/win32/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick
