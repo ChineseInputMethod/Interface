@@ -149,6 +149,6 @@ ITfToolTipUIElement
 ITfTransitoryExtensionSink
 ITfTransitoryExtensionUIElement
 ITfUIElement
-ITfUIElementMgr
+[ITfUIElementMgr](TSFmanager/ITfUIElementMgr.md)|UI元素管理器|TSF管理器
 ITfUIElementSink
 IUIManagerEventSink
