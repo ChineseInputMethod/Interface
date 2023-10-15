@@ -11,7 +11,7 @@
 [IEnumTfRanges](TSFmanager/IEnumTfRanges.md)								|范围枚举器，枚举文本范围对象。
 [ITfContext](TSFmanager/ITfContext.md)										|上下文，用来创建和管理编辑上下文。
 [ITfInsertAtSelection](TSFmanager/ITfInsertAtSelection.md)					|在选定位置插入内容，用于在上下文中插入文本或嵌入对象。
-[ITfRange](TSFmanager/ITfRange.md)											|文本范围，用来引用和操作给定上下文中的文本。
+[ITfRange](TSFmanager/ITfRange.md)											|文本范围，用来操作给定上下文中的文本。
 [ITfCategoryMgr](TSFmanager/ITfCategoryMgr.md)								|类别管理器，为输入法注册类别。
 [ITfKeystrokeMgr](TSFmanager/ITfKeystrokeMgr.md)							|按键管理器，主要用来安装键盘事件接收器和注册保留键。
 [ITfCompartmentMgr](TSFmanager/ITfCompartmentMgr.md)						|公共缓冲池管理器，用于管理客户端之间的共享数据。
