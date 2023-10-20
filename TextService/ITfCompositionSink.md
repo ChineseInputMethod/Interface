@@ -1,6 +1,6 @@
 ### [ITfCompositionSink](https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nn-msctf-itfcompositionsink)
 
-输入组合终止消息接收器，用于在终止ITfComposition输入组合时接收通知。
+合成终止消息接收器，用于在终止ITfComposition合成时接收通知。
 
 方法								|描述
 -|-

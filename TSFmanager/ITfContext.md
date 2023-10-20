@@ -10,6 +10,7 @@
 [GetDocumentMgr][4]		|获取包含上下文的文档管理器。
 [GetSelection][5]		|获取文档中的选定内容。
 [GetStart][6]			|获取位于文档开头的文本范围。
+[GetProperty][7]		|获取文本属性。
 
 [1]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcontext-requesteditsession
 [2]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcontext-getactiveview
@@ -17,3 +18,4 @@
 [4]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcontext-getdocumentmgr
 [5]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcontext-getselection
 [6]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcontext-getstart
+[7]: https://learn.microsoft.com/zh-cn/windows/win32/api/msctf/nf-msctf-itfcontext-getproperty

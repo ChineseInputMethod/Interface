@@ -47,12 +47,12 @@ ITfClientId获取客户端标识符
 [ITfCompartment](TSFmanager/ITfCompartment.md)|公共缓冲池|TSF管理器
 [ITfCompartmentEventSink](TextService/ITfCompartmentEventSink.md)|公共缓冲池事件接收器|文本服务
 [ITfCompartmentMgr](TSFmanager/ITfCompartmentMgr.md)|公共缓冲池管理器|TSF管理器
-[ITfComposition](TSFmanager/ITfComposition.md)|输入组合|TSF管理器
-[ITfCompositionSink](TextService/ITfCompositionSink.md)|输入组合终止消息接收器|文本服务
-ITfCompositionView输入组合查看对象
+[ITfComposition](TSFmanager/ITfComposition.md)|合成|TSF管理器
+[ITfCompositionSink](TextService/ITfCompositionSink.md)|合成终止消息接收器|文本服务
+ITfCompositionView合成查看对象
 ITfConfigureSystemKeystrokeFeed按键处理管理
 [ITfContext](TSFmanager/ITfContext.md)|上下文|TSF管理器
-[ITfContextComposition](TSFmanager/ITfContextComposition.md)|上下文输入组合|TSF管理器
+[ITfContextComposition](TSFmanager/ITfContextComposition.md)|上下文合成|TSF管理器
 [ITfContextKeyEventSink](TextService/ITfContextKeyEventSink.md)|上下文键盘事件接收器|文本服务
 ITfContextOwner上下文所有者
 ITfContextOwnerCompositionServices上下文所有者输入组合服务

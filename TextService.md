@@ -10,7 +10,7 @@
 [ITfLangBarItemButton](TextService/ITfLangBarItemButton.md)|语言栏按钮项信息，由语言栏管理器用来获取语言栏上的按钮项信息。
 [ITfEditSession](TextService/ITfEditSession.md)|编辑会话，由TSF管理器调用，用来修改上下文的文本和属性。
 [ITfKeyEventSink](TextService/ITfKeyEventSink.md)|键盘事件接收器，用于接收按键和保留键事件。
-[ITfCompositionSink](TextService/ITfCompositionSink.md)|输入组合终止消息接收器，用于在终止ITfComposition输入组合时接收通知。
+[ITfCompositionSink](TextService/ITfCompositionSink.md)|合成终止消息接收器，用于在终止ITfComposition合成时接收通知。
 [ITfDisplayAttributeProvider](TextService/ITfDisplayAttributeProvider.md)|显示属性提供者，由TSF管理器用来枚举和获取单个显示属性信息对象。
 [ITfDisplayAttributeInfo](TextService/ITfDisplayAttributeInfo.md)|显示属性信息对象，为应用程序提供显示属性信息。
 [IEnumTfDisplayAttributeInfo](TextService/IEnumTfDisplayAttributeInfo.md)|显示属性信息对象枚举器，官方文档称此接口由TSF管理器实现。
