@@ -24,4 +24,4 @@
 [ITfReadOnlyProperty](TSFmanager/ITfReadOnlyProperty.md)					|只读属性，ITfProperty继承此接口。
 [ITfDisplayAttributeMgr](TSFmanager/ITfDisplayAttributeMgr.md)				|显示属性管理器，由应用程序用来获取和枚举显示属性。
 [ITfSourceSingle](TSFmanager/ITfSourceSingle.md)							|单一事件安装器，ITfSourceSingle安装的事件接收器一次仅支持一个事件接收器。
-[ITfUIElementMgr](TSFmanager/ITfUIElementMgr.md)							|UI元素管理器，文本服务调用ITfUIElementMgr，向应用程序提供UI元素。
+[ITfUIElementMgr](TSFmanager/ITfUIElementMgr.md)							|UI元素管理器，文本服务调用ITfUIElementMgr，操作应用程序UI元素。

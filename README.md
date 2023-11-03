@@ -37,7 +37,7 @@ ITextStoreAnchor文本存储片段标签
 ITextStoreAnchorSink文本存储片段标签事件接收器
 [ITfActiveLanguageProfileNotifySink](Application/ITfActiveLanguageProfileNotifySink.md)|语言配置激活消息接收器|应用程序
 ITfCandidateList候选列表对象
-ITfCandidateListUIElement
+[ITfCandidateListUIElement](TextService/ITfCandidateListUIElement.md)|候选列表UI元素|文本服务
 ITfCandidateListUIElementBehavior
 ITfCandidateString候选文字串对象
 [ITfCategoryMgr](TSFmanager/ITfCategoryMgr.md)|类别管理器|TSF管理器

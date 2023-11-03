@@ -23,3 +23,4 @@
 [ITfFunction](TextService/ITfFunction.md)|扩展功能对象，ITfFunction接口是各个函数接口的基接口。
 [ITfFnGetPreferredTouchKeyboardLayout](TextService/ITfFnGetPreferredTouchKeyboardLayout.md)|获取首选触摸键盘布局，指定Windows 8触摸键盘支持的键盘布局。
 [ITfCompartmentEventSink](TextService/ITfCompartmentEventSink.md)|公共缓冲池事件接收器，当缓冲池数据发生更改时，TSF管理器通知客户端。
+[ITfCandidateListUIElement](TextService/ITfCandidateListUIElement.md)|候选列表UI元素，向应用程序提供UI元素。
